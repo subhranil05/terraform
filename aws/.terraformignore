@@ -1,0 +1,5 @@
+aws/vpc/.terraform/
+aws/vpc/.terraform*
+aws/vpc/prod-vpc-standarize/.terraform/
+aws/vpc/prod-vpc-standarize/.terraform*
+aws/vpc/*.tfstate
