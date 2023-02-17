@@ -17,3 +17,9 @@
     terraform plan
     terraform apply --auto-approve
 ```
+
+### Destroy the resources after all validations passed
+
+```sh
+    terraform destroy --auto-approve
+```
