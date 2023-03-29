@@ -1,0 +1,7 @@
+vnet_name          = "my_vnet"
+vnet_location      = "East US"
+vnet_rg_name       = "example"
+vnet_address_space = "10.0.0.0/16"
+environment        = "test"
+subnet_name        = "my-subnet"
+# subnet_address_prefix = "10.0.1.0/24"
