@@ -1,6 +1,7 @@
 # Create Classic loadbalancer by lb module
 
 module "elb" {
+  name_prefix = elb
   source  = "terraform-aws-modules/elb/aws"
   version = "2.5.0"
 
