@@ -1,0 +1,10 @@
+vm/*/.terraform*
+vm/*/*tfstate*
+key-vault/*/.terraform*
+key-vault/*/*tfstate*
+resource-group/.terraform*
+resource-group/*tfstate*
+storage-account/*/.terraform*
+storage-account/*/*tfstate*
+storage-account/.terraform*
+storage-account/*tfstate*

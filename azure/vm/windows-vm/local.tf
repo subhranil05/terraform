@@ -12,6 +12,8 @@ locals {
   }
   tags = {
     environment = var.environment
+    service = "virtual machine"
+
   }
   subnet = [
     {

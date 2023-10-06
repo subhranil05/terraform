@@ -44,6 +44,9 @@ resource "azurerm_windows_virtual_machine" "windowsvm" {
   depends_on = [
     azurerm_network_interface.interface
   ]
+  tags = {
+    for name,value in local.tags : name=>"${value}"
+  }
 }
 ## VM extension for custom script
 
